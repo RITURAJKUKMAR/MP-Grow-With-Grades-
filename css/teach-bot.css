@@ -1,0 +1,154 @@
+:root {
+    --main-bg-color: #003153;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .wel {
+    font-size: 26px;
+    color: black;
+}
+
+main .container {
+    width: 100%;
+    min-height: 86vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5px 0 0px 0;
+}
+
+main .container .left {
+    background-color: yellow;
+    margin: 30px 5px;
+    background-size: cover;
+    background-image: url(teach-bot.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 720px;
+    height: 72vh;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+main .container .right {
+    /* background-color: silver; */
+    border: 1px black solid;
+    box-shadow: 0px 0px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 30px 10px;
+    width: 720px;
+    height: 72vh;
+}
+
+main .container .right .heading {
+    /* background-color: red; */
+    background-color: var(--main-bg-color);
+    border-radius: 18px 18px 0 0;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+    padding: 8px 0;
+}
+
+main .container .right .chat {
+    border: 2px black solid;
+    border-radius: 10px;
+    margin: 2px auto;
+    padding: 10px;
+    background-color: silver;
+    overflow: hidden;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    width: 85%;
+    height: 50%;
+    scrollbar-width: auto;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    color: red;
+    text-align: right;
+    scrollbar-width: none;
+}
+
+main .container .right .chat p {
+    color: black;
+    text-align: left;
+}
+
+#chat-ans {
+    display: inline;
+    border-radius: 10px;
+    /* background-color: red; */
+}
+
+main .container .right .sms {
+    /* background-color: red; */
+    margin: 20px auto;
+    width: 88%;
+    height: 13%;
+}
+
+main .container .right input {
+    outline: none;
+    margin: 1px auto;
+    font-weight: 900;
+    padding: 5px 0 5px 5px;
+    width: 96%;
+    height: 30px;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+main .container .right .send {
+    margin: 1px auto;
+    width: 78%;
+}
+
+main .container .right .send button:hover {
+    box-shadow: 0 10px 20px;
+    border-radius: 10px;
+}
+
+main .container .right .send:active {
+    transform: translateY(4px);
+}
+
+main .container .right button {
+    border: 1px black solid;
+    border-radius: 7px;
+    background-color: var(--main-bg-color);
+    color: black;
+    font-size: 16px;
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+}
+
+.botpress{
+    width: 90%;
+    height: 85%;
+    margin: 0 auto;
+    /* background-color: black; */
+    overflow: hidden;
+}
+
+.botpress iframe{
+    width: 100%;
+    height: 231%;
+    /* background-color: red; */
+}

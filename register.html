@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Teach-Bot</title>
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <form action="" onsubmit="return verify()" >
+                <table cellspacing="2px">
+                    <tr>
+                        <td colspan="4">
+                            <p>Register Here</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span class="star">*</span>First Name </p>
+                            <input class="name" type="text" placeholder="Please enter your first name" minlength="4" maxlength="10" size="10" required>
+                        </td>
+                        <td >
+                            <p><span class="star">*</span>Last Name </p>
+                            <input class="name" type="text" placeholder="Please enter your last name" minlength="4" maxlength="10" size="10" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p><span class="star">*</span>UserName </p>
+                            <input class="email" name="username" type="username" placeholder="Please enter your UserName" minlength="4" maxlength="20" size="10" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p><span class="star">*</span>Email </p>
+                            <input class="email" name="email" type="email" placeholder="Please enter your email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            <p><span class="star">*</span>Phone Number </p>
+                            <input class="phone" type="phone" placeholder="Phone" required>
+                        </td>
+                        <td>
+                            <p ><span class="star">*</span>Gender </p>
+                            <input class="gender" id="male" type="radio" name="gender" required> <label for="male">Male</label> 
+                            <input class="gender" id="Female" type="radio" name="gender" required><label for="Female">Female</label> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span class="star">*</span>New Password </p>
+                            <input class="pass" type="password" placeholder="Enter new password" required>
+                        </td>
+                        <td>
+                            <p><span class="star">*</span>Confirm Password </p>
+                            <input class="pass" type="password" placeholder="Enter confirm password" required>
+                        </td>
+                    </tr>
+                    <tr class="rere">
+                        <td >
+                            <div class="D-btn"><button type="reset" class="btn btn-primary">Reset</button></div>
+                        </td>
+                        <td >
+                            <div class="D-btn"><button type="submit" class="btn btn-primary">Register</button></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p class="para">Have an Account? <a href="login.html">Login</a></p>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <script src="Script/register.js" ></script>
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --main-bg-color: #003153;
+}
+
+.all-container .box .help {
+    text-align: center;
+    font-size: 60px;
+}
+
+.box{
+    display: block;
+}
+
+.all-container .box p {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.all-container .map-details {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.all-container .map-details .map {
+    border-radius: 10px;
+    width: 650px;
+}
+
+#fill-this-form {
+    text-align: center;
+}
+
+.all-container .map-details .map img {
+    border: 2px silver solid;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.all-container .map-details .map{
+    text-align: center;
+}
+
+.all-container .map-details .map .abesit{
+    margin: 30px 0 30px 0;
+    font-size: 35px;
+    font-weight: 900;
+    font: bold;
+}
+
+.all-container .map-details .map .abesit-addre{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.all-container .map-details .map img:hover,
+.details:hover {
+    box-shadow: 0 0 20px;
+}
+
+.all-container .map-details .details {
+    border-radius: 10px;
+    margin: 50px 50px 30px 30px;
+    width: 700px;
+}
+
+.form,
+.table {
+    height: 100%;
+}
+
+.all-container .form b {
+    font-size: 60px;
+    font: bold;
+    font-weight: 900;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.all-container .form form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+}
+
+.all-container .form form table td {
+    padding: 20px 10px 10px 10px;
+}
+
+.all-container .form form table td a {
+    text-decoration: none;
+    font-size: 18px;
+    font: bold;
+    font-weight: 900;
+    color: black;
+}
+
+.all-container .form form table td a:hover {
+    text-decoration: underline;
+    color: var(--main-bg-color);
+}
+
+.all-container .form form p {
+    font-size: 24px;
+}
+
+.form form table tr td .name,
+.pass,
+.phone {
+    outline: none;
+    padding: 5px;
+    width: 85%;
+    height: 30px;
+    border: 2px silver solid;
+    border-radius: 5px;
+}
+
+.form form table tr td .email {
+    outline: none;
+    padding: 5px;
+    width: 95%;
+    height: 30px;
+    border: 2px silver solid;
+    border-radius: 10px;
+}
+
+.form form table tr td #msg {
+    outline: none;
+    width: 95%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.D-btn:hover {
+    box-shadow: 0px 10px 20px;
+}
+
+.D-btn {
+    width: 99%;
+    border-radius: 50px;
+}
+
+.btn:active{
+    transform: translateY(3px);
+}
+
+.btn {
+    width: 100%;
+    height: 35px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: black 2px solid;
+    border-radius: 7px;
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Teach-Bot</title>
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <b>Welcome back!</b>
+            <p>Please login to access your account.</p>
+            <form action="Home.html" onsubmit="return logindata();">
+                <table>
+                    <tr>
+                        <td><p>User id :</p></td>
+                        <td>
+                            <input type="username" name="username" placeholder="Username" minlength="4" size="10" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Password   :</p>
+                        </td>
+                        <td>
+                            <input type="password" name="password" placeholder="Password" minlength="4" size="10" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <p id="error"></p>
+                            <a href="forget.html">Forget Password?</a>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td colspan="3">
+                            <button type="submit" class="btn btn-primary">Log in</button>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td colspan="3">
+                            <p>Don't have an Account? <a href="register.html">Sign Up</a></p>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <script src="Script/login.js"></script>
+</body>
+
+</html>
