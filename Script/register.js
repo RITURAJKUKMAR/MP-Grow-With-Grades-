@@ -4,16 +4,7 @@ let nameValidation = /[A-Za-z0-9_]{6,}$/;
 let x=false;
 let un = 1;
 let pa = 1;
-function verify() {
-    for (let i = 0; i < 9; i++) {
-        if (i == 5 || i == 6) {
-            if (inputs[i].checked == true)
-                console.log(inputs[i].id);
-        }
-        else
-            console.log(inputs[i].value);
-    }
-    
+function verify() {    
     if (!nameValidation.test(inputs[2].value)) {
         alert("Invalid UserName");
         un = 0;

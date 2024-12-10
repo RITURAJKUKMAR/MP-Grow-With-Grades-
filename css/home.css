@@ -74,11 +74,17 @@ menu{
 
 menu ul li{
     padding: 15px;
+    cursor: pointer;
+    color: white;
 }
 
 menu ul li a{
     text-decoration: none;
     color: white;
+}
+
+ol{
+    list-style: none;
 }
 
 main section .frame,iframe{
@@ -92,4 +98,15 @@ main section .frame,iframe{
 
 .hide{
     display: none;
+}
+
+.level{
+    display: none;
+    color:  var(--main-bg-color);
+    position: absolute;
+    transition: 0.5s ;
+}
+.dropdown:hover .level{
+    display: inline;
+    display: block;
 }

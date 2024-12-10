@@ -23,6 +23,5 @@ function ques() {
     input.value = "";
     chatBox.scrollBy(0, 1000);
 
-    console.log(question);
     return false;
 }
